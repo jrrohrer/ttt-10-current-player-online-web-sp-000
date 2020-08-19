@@ -4,6 +4,7 @@ def turn_count(board)
     if turn == "X" || turn == "O"
       counter += 1
     end
+<<<<<<< HEAD
   end
   counter
 end
@@ -14,5 +15,8 @@ def current_player(board)
     return "X"
   else
     return "O"
+=======
+    puts "Turns played: #{counter}"
+>>>>>>> cc49a1cfd7de7718381ed95b246164afebf1bd12
   end
 end
